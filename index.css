@@ -1,0 +1,61 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: aqua;
+}
+h1{
+   background-color:  rgb(237, 30, 30);
+   border-radius: 5px;
+   padding:10px;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+
+
+
+
+header details{
+    position: relative;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+header details ul{
+    position: absolute;
+    width: max-content;
+    list-style: none;
+    background-color: rgba(248, 72, 72, 0.715);
+    border-radius: 5px;
+}
+header details ul li{
+    padding: 7px 15px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+header details ul li:hover{
+    background-color: red;
+}
+header details summary{
+    list-style: none;
+
+}
+
+.outside{
+    position: relative;
+    display: flex;
+}
+.inside {
+    position: absolute;
+    margin-right: 100px;
+}
